@@ -3,12 +3,7 @@
 import React from "react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { TbMailFilled } from "react-icons/tb";
-
-export const socialLinks = {
-  github: "/",
-  linkedin: "/",
-  email: "mailto:example@gmail.com",
-};
+import { socialLinks } from "../config";
 
 interface SocialLinkProps {
   href: string;
